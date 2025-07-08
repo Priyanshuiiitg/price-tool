@@ -1,0 +1,472 @@
+2025-07-08 17:32:53,359 - src.utils.ai_helper - INFO - AI helper initialized successfully
+2025-07-08 17:32:53,359 - src.scraper.scraper_manager - INFO - Loaded scraper: generic_ai
+2025-07-08 17:32:53,360 - src.utils.ai_helper - INFO - AI helper initialized successfully
+2025-07-08 17:32:53,360 - src.scraper.scraper_manager - INFO - Loaded scraper: flipkart
+2025-07-08 17:32:53,362 - src.utils.ai_helper - INFO - AI helper initialized successfully
+2025-07-08 17:32:53,362 - src.scraper.scraper_manager - INFO - Loaded scraper: amazon
+2025-07-08 17:32:53,362 - src.scraper.sites.flipkart - INFO - Searching Flipkart: https://www.flipkart.com/search?q=shoes
+2025-07-08 17:32:53,362 - src.scraper.sites.amazon - INFO - Searching Amazon in: https://www.amazon.in/s?k=shoes
+2025-07-08 17:32:58,440 - src.scraper.sites.flipkart - ERROR - Error extracting Flipkart products with AI: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-07-08 17:33:02,442 - src.scraper.sites.amazon - ERROR - Error extracting Amazon products with AI: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-07-08 17:44:45,011 - src.scraper.scraper_manager - INFO - Loaded scraper: generic_ai
+2025-07-08 17:44:45,011 - src.scraper.scraper_manager - INFO - Loaded scraper: flipkart
+2025-07-08 17:44:45,012 - src.scraper.scraper_manager - INFO - Loaded scraper: amazon
+2025-07-08 17:44:45,012 - src.scraper.sites.flipkart - INFO - Searching Flipkart: https://www.flipkart.com/search?q=shoes
+2025-07-08 17:44:45,012 - src.scraper.sites.amazon - INFO - Searching Amazon in: https://www.amazon.in/s?k=shoes
+2025-07-08 17:44:46,034 - src.scraper.sites.flipkart - ERROR - Error searching Flipkart: 'AIHelper' object has no attribute 'llm'
+2025-07-08 17:44:47,124 - src.scraper.sites.amazon - ERROR - Error searching Amazon: 'AIHelper' object has no attribute 'llm'
+2025-07-08 17:47:53,788 - src.scraper.scraper_manager - INFO - Loaded scraper: generic_ai
+2025-07-08 17:47:53,789 - src.scraper.scraper_manager - INFO - Loaded scraper: flipkart
+2025-07-08 17:47:53,791 - src.scraper.scraper_manager - INFO - Loaded scraper: amazon
+2025-07-08 17:47:53,791 - src.scraper.sites.flipkart - INFO - Searching Flipkart: https://www.flipkart.com/search?q=shoes
+2025-07-08 17:47:53,791 - src.scraper.sites.amazon - INFO - Searching Amazon in: https://www.amazon.in/s?k=shoes
+2025-07-08 17:47:54,766 - src.scraper.sites.flipkart - ERROR - Error extracting Flipkart products with AI: 2 validation errors for LLMChain
+llm.is-instance[Runnable]
+  Input should be an instance of Runnable [type=is_instance_of, input_value='AIzaSyDTNryJ4Nwb2MVBaObKa4IqQYXK2J7R5BQ', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/is_instance_of
+llm.is-instance[Runnable]
+  Input should be an instance of Runnable [type=is_instance_of, input_value='AIzaSyDTNryJ4Nwb2MVBaObKa4IqQYXK2J7R5BQ', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/is_instance_of
+2025-07-08 17:47:55,828 - src.scraper.sites.amazon - ERROR - Error extracting Amazon products with AI: 'AIHelper' object has no attribute 'llm'
+2025-07-08 17:49:33,793 - src.scraper.scraper_manager - INFO - Loaded scraper: generic_ai
+2025-07-08 17:49:33,795 - src.scraper.scraper_manager - INFO - Loaded scraper: flipkart
+2025-07-08 17:49:33,796 - src.scraper.scraper_manager - INFO - Loaded scraper: amazon
+2025-07-08 17:49:33,796 - src.scraper.sites.flipkart - INFO - Searching Flipkart: https://www.flipkart.com/search?q=shoes
+2025-07-08 17:49:33,797 - src.scraper.sites.amazon - INFO - Searching Amazon in: https://www.amazon.in/s?k=shoes
+2025-07-08 17:49:40,156 - src.scraper.sites.flipkart - ERROR - Failed to parse Gemini JSON: Expecting value: line 1 column 1 (char 0)
+Raw: I'm sorry, but the provided HTML content is truncated and does not contain the necessary information to extract product listings. I need the full HTML content of the Flipkart search results page to identify product names, prices, image URLs, and other details.
+
+2025-07-08 17:51:08,268 - src.scraper.scraper_manager - INFO - Loaded scraper: generic_ai
+2025-07-08 17:51:08,269 - src.scraper.scraper_manager - INFO - Loaded scraper: flipkart
+2025-07-08 17:51:08,271 - src.scraper.scraper_manager - INFO - Loaded scraper: amazon
+2025-07-08 17:51:08,271 - src.scraper.sites.flipkart - INFO - Searching Flipkart: https://www.flipkart.com/search?q=shoes
+2025-07-08 17:51:08,271 - src.scraper.sites.amazon - INFO - Searching Amazon in: https://www.amazon.in/s?k=shoes
+2025-07-08 17:53:30,709 - src.scraper.scraper_manager - INFO - Loaded scraper: generic_ai
+2025-07-08 17:53:30,711 - src.scraper.scraper_manager - INFO - Loaded scraper: flipkart
+2025-07-08 17:53:30,712 - src.scraper.scraper_manager - INFO - Loaded scraper: amazon
+2025-07-08 17:53:30,712 - src.scraper.sites.flipkart - INFO - Searching Flipkart: https://www.flipkart.com/search?q=shoes
+2025-07-08 17:53:30,713 - src.scraper.sites.amazon - INFO - Searching Amazon in: https://www.amazon.in/s?k=shoes
+2025-07-08 17:55:37,580 - src.scraper.scraper_manager - INFO - Loaded scraper: generic_ai
+2025-07-08 17:55:37,582 - src.scraper.scraper_manager - INFO - Loaded scraper: flipkart
+2025-07-08 17:55:37,584 - src.scraper.scraper_manager - INFO - Loaded scraper: amazon
+2025-07-08 17:55:37,584 - src.scraper.sites.flipkart - INFO - Searching Flipkart: https://www.flipkart.com/search?q=shoes
+2025-07-08 17:55:37,585 - src.scraper.sites.amazon - INFO - Searching Amazon in: https://www.amazon.in/s?k=shoes
+2025-07-08 17:58:10,610 - src.scraper.scraper_manager - INFO - Loaded scraper: generic_ai
+2025-07-08 17:58:10,610 - src.scraper.scraper_manager - INFO - Loaded scraper: flipkart
+2025-07-08 17:58:10,611 - src.scraper.scraper_manager - INFO - Loaded scraper: amazon
+2025-07-08 17:58:10,659 - src.scraper.sites.amazon - INFO - Searching Amazon india: https://www.amazon.com/s?k=shoes
+2025-07-08 17:58:11,754 - src.scraper.base_scraper - ERROR - Failed to fetch https://www.amazon.com/s?k=shoes, status code: 503
+2025-07-08 17:58:11,755 - src.scraper.sites.amazon - ERROR - Failed to fetch Amazon search results for shoes in india
+2025-07-08 17:58:13,290 - src.utils.ai_helper - ERROR - Gemini API error: Server error '503 Service Unavailable' for url 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=AIzaSyDTNryJ4Nwb2MVBaObKa4IqQYXK2J7R5BQ'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/503
+2025-07-08 17:58:13,290 - src.scraper.sites.generic_ai_scraper - INFO - Searching amazon.com for shoes in india: https://www.amazon.com/s?k=shoes
+2025-07-08 17:58:13,291 - src.scraper.sites.generic_ai_scraper - INFO - Searching walmart.com for shoes in india: https://www.walmart.com/search/?query=shoes
+2025-07-08 17:58:13,291 - src.scraper.sites.generic_ai_scraper - INFO - Searching bestbuy.com for shoes in india: https://www.bestbuy.com/search?q=shoes
+2025-07-08 17:58:14,215 - src.scraper.base_scraper - ERROR - Failed to fetch https://www.amazon.com/s?k=shoes, status code: 503
+2025-07-08 17:58:14,216 - src.scraper.sites.generic_ai_scraper - ERROR - Failed to fetch search results from amazon.com
+2025-07-08 17:58:23,531 - src.scraper.base_scraper - ERROR - Error fetching https://www.bestbuy.com/search?q=shoes: 
+2025-07-08 17:58:23,532 - src.scraper.sites.generic_ai_scraper - ERROR - Failed to fetch search results from bestbuy.com
+2025-07-08 18:17:31,256 - src.scraper.scraper_manager - INFO - Loaded scraper: generic_ai
+2025-07-08 18:17:31,257 - src.scraper.scraper_manager - INFO - Loaded scraper: flipkart
+2025-07-08 18:17:31,257 - src.scraper.scraper_manager - INFO - Loaded scraper: amazon
+2025-07-08 18:17:31,312 - src.scraper.sites.amazon - INFO - Searching Amazon india: https://www.amazon.com/s?k=shoes
+2025-07-08 18:17:31,639 - src.scraper.base_scraper - ERROR - Failed to fetch https://www.amazon.com/s?k=shoes, status code: 503
+2025-07-08 18:17:31,639 - src.scraper.sites.amazon - ERROR - Failed to fetch Amazon search results for shoes in india
+2025-07-08 18:17:33,559 - src.scraper.sites.generic_ai_scraper - INFO - Searching amazon.in for shoes in india: https://www.amazon.in/s?k=shoes
+2025-07-08 18:17:33,559 - src.scraper.sites.generic_ai_scraper - INFO - Searching flipkart.com for shoes in india: https://www.flipkart.com/search?q=shoes
+2025-07-08 18:17:33,559 - src.scraper.sites.generic_ai_scraper - INFO - Searching myntra.com for shoes in india: https://www.myntra.com/search?q=shoes
+2025-07-08 18:17:33,559 - src.scraper.sites.generic_ai_scraper - INFO - Searching ajio.com for shoes in india: https://www.ajio.com/search?q=shoes
+2025-07-08 18:17:33,559 - src.scraper.sites.generic_ai_scraper - INFO - Searching snapdeal.com for shoes in india: https://www.snapdeal.com/search?q=shoes
+2025-07-08 18:17:33,659 - src.scraper.base_scraper - ERROR - Failed to fetch https://www.ajio.com/search?q=shoes, status code: 403
+2025-07-08 18:17:33,659 - src.scraper.sites.generic_ai_scraper - ERROR - Failed to fetch search results from ajio.com
+2025-07-08 18:17:33,737 - src.scraper.base_scraper - ERROR - Failed to fetch https://www.flipkart.com/search?q=shoes, status code: 429
+2025-07-08 18:17:33,738 - src.scraper.sites.generic_ai_scraper - ERROR - Failed to fetch search results from flipkart.com
+2025-07-08 18:29:34,517 - src.scraper.scraper_manager - INFO - Loaded scraper: generic_ai
+2025-07-08 18:29:34,518 - src.scraper.scraper_manager - INFO - Loaded scraper: flipkart
+2025-07-08 18:29:34,518 - src.scraper.scraper_manager - INFO - Loaded scraper: amazon
+2025-07-08 18:29:34,518 - src.scraper.sites.amazon - INFO - Searching Amazon US: https://www.amazon.com/s?k=shoes
+2025-07-08 18:29:34,944 - src.scraper.base_scraper - ERROR - Failed to fetch https://www.amazon.com/s?k=shoes, status code: 503
+2025-07-08 18:29:34,944 - src.scraper.sites.amazon - ERROR - Failed to fetch Amazon search results for shoes in US
+2025-07-08 18:30:03,771 - src.scraper.scraper_manager - INFO - Loaded scraper: generic_ai
+2025-07-08 18:30:03,772 - src.scraper.scraper_manager - INFO - Loaded scraper: flipkart
+2025-07-08 18:30:03,772 - src.scraper.scraper_manager - INFO - Loaded scraper: amazon
+2025-07-08 18:30:03,847 - src.scraper.sites.amazon - INFO - Searching Amazon india: https://www.amazon.com/s?k=smartphone
+2025-07-08 18:30:04,289 - src.scraper.base_scraper - ERROR - Failed to fetch https://www.amazon.com/s?k=smartphone, status code: 503
+2025-07-08 18:30:04,290 - src.scraper.sites.amazon - ERROR - Failed to fetch Amazon search results for smartphone in india
+2025-07-08 18:30:06,063 - src.scraper.sites.generic_ai_scraper - INFO - Searching amazon.in for smartphone in india: https://www.amazon.in/s?k=smartphone
+2025-07-08 18:30:06,064 - src.scraper.sites.generic_ai_scraper - INFO - Searching flipkart.com for smartphone in india: https://www.flipkart.com/search?q=smartphone
+2025-07-08 18:30:06,065 - src.scraper.sites.generic_ai_scraper - INFO - Searching myntra.com for smartphone in india: https://www.myntra.com/search?q=smartphone
+2025-07-08 18:30:06,065 - src.scraper.sites.generic_ai_scraper - INFO - Searching ajio.com for smartphone in india: https://www.ajio.com/search?q=smartphone
+2025-07-08 18:30:06,065 - src.scraper.sites.generic_ai_scraper - INFO - Searching nykaa.com for smartphone in india: https://www.nykaa.com/search?q=smartphone
+2025-07-08 18:30:06,171 - src.scraper.base_scraper - ERROR - Failed to fetch https://www.ajio.com/search?q=smartphone, status code: 403
+2025-07-08 18:30:06,171 - src.scraper.sites.generic_ai_scraper - ERROR - Failed to fetch search results from ajio.com
+2025-07-08 18:30:06,302 - src.scraper.base_scraper - ERROR - Failed to fetch https://www.flipkart.com/search?q=smartphone, status code: 429
+2025-07-08 18:30:06,302 - src.scraper.sites.generic_ai_scraper - ERROR - Failed to fetch search results from flipkart.com
+2025-07-08 18:30:06,381 - src.scraper.base_scraper - ERROR - Failed to fetch https://www.nykaa.com/search?q=smartphone, status code: 404
+2025-07-08 18:30:06,381 - src.scraper.sites.generic_ai_scraper - ERROR - Failed to fetch search results from nykaa.com
+2025-07-08 18:30:12,011 - src.scraper.sites.generic_ai_scraper - WARNING - Skipping product with missing link or price: {'productName': 'Blackberrys India Fit Tartan Checks Cutaway Collar Pure Cotton Casual Shirt', 'price': '', 'currency': '', 'link': 'https://www.myntra.com/shirts/blackberrys/blackberrys-india-fit-tartan-checks-cutaway-collar-pure-cotton-casual-shirt/33608079/buy', 'imageUrl': '', 'additionalInfo': None, 'source': 'myntra.com'}
+2025-07-08 18:30:12,012 - src.scraper.sites.generic_ai_scraper - WARNING - Skipping product with missing link or price: {'productName': 'TURMS Men Solid Full Sleeves Stain And Water Repellent Anti Odor Cotton Oxford Shirt', 'price': '', 'currency': '', 'link': 'https://www.myntra.com/shirts/turms/turms-men-solid-full-sleeves-stain-and-water-repellent-anti-odor-cotton-oxford-shirt/29769212/buy', 'imageUrl': '', 'additionalInfo': None, 'source': 'myntra.com'}
+2025-07-08 18:30:12,012 - src.scraper.sites.generic_ai_scraper - WARNING - Skipping product with missing link or price: {'productName': 'Campus Sutra Classic Self Design Spread Collar Casual Shirt', 'price': '', 'currency': '', 'link': 'https://www.myntra.com/shirts/campus+sutra/campus-sutra-classic-self-design-spread-collar-casual-shirt/28219632/buy', 'imageUrl': '', 'additionalInfo': None, 'source': 'myntra.com'}
+2025-07-08 18:30:12,012 - src.scraper.sites.generic_ai_scraper - WARNING - Skipping product with missing link or price: {'productName': 'H&M Regular Fit Linen-Blend Resort Shirt', 'price': '', 'currency': '', 'link': 'https://www.myntra.com/shirts/h%26m/hm-regular-fit-linen-blend-resort-shirt/32825862/buy', 'imageUrl': '', 'additionalInfo': None, 'source': 'myntra.com'}
+2025-07-08 18:30:12,012 - src.scraper.sites.generic_ai_scraper - WARNING - Skipping product with missing link or price: {'productName': 'Richlook Men Comfort Opaque Casual Shirt', 'price': '', 'currency': '', 'link': 'https://www.myntra.com/shirts/richlook/richlook-men-comfort-opaque-casual-shirt/33213005/buy', 'imageUrl': '', 'additionalInfo': None, 'source': 'myntra.com'}
+2025-07-08 18:30:12,012 - src.scraper.sites.generic_ai_scraper - WARNING - No valid products extracted for myntra.com
+2025-07-08 18:34:21,895 - src.scraper.scraper_manager - INFO - Loaded scraper: generic_ai
+2025-07-08 18:34:21,895 - src.scraper.scraper_manager - INFO - Loaded scraper: flipkart
+2025-07-08 18:34:21,896 - src.scraper.scraper_manager - INFO - Loaded scraper: amazon
+2025-07-08 18:34:21,954 - src.scraper.sites.amazon - INFO - Searching Amazon india: https://www.amazon.com/s?k=shirts
+2025-07-08 18:34:22,887 - src.scraper.base_scraper - ERROR - Failed to fetch https://www.amazon.com/s?k=shirts, status code: 503
+2025-07-08 18:34:22,888 - src.scraper.sites.amazon - ERROR - Failed to fetch Amazon search results for shirts in india
+2025-07-08 18:34:22,926 - src.scraper.sites.generic_ai_scraper - INFO - Searching amazon.in for shirts in india: https://www.amazon.in/s?k=shirts
+2025-07-08 18:34:22,927 - src.scraper.sites.generic_ai_scraper - INFO - Searching flipkart.com for shirts in india: https://www.flipkart.com/search?q=shirts
+2025-07-08 18:34:22,927 - src.scraper.sites.generic_ai_scraper - INFO - Searching myntra.com for shirts in india: https://www.myntra.com/search?q=shirts
+2025-07-08 18:34:22,927 - src.scraper.sites.generic_ai_scraper - INFO - Searching ajio.com for shirts in india: https://www.ajio.com/search?q=shirts
+2025-07-08 18:34:22,927 - src.scraper.sites.generic_ai_scraper - INFO - Searching snapdeal.com for shirts in india: https://www.snapdeal.com/search?q=shirts
+2025-07-08 18:34:23,011 - src.scraper.base_scraper - ERROR - Failed to fetch https://www.ajio.com/search?q=shirts, status code: 403
+2025-07-08 18:34:23,011 - src.scraper.sites.generic_ai_scraper - ERROR - Failed to fetch search results from ajio.com
+2025-07-08 18:34:23,089 - src.scraper.base_scraper - ERROR - Failed to fetch https://www.flipkart.com/search?q=shirts, status code: 429
+2025-07-08 18:34:23,089 - src.scraper.sites.generic_ai_scraper - ERROR - Failed to fetch search results from flipkart.com
+2025-07-08 18:34:25,142 - src.scraper.sites.generic_ai_scraper - WARNING - Skipping product with missing link or price: {'productName': 'Shop Online for Men, Women & Kids Clothing, Shoes, Home Decor Items', 'price': '', 'currency': '', 'link': 'https://www.snapdeal.com/', 'imageUrl': '', 'additionalInfo': None, 'source': 'snapdeal.com'}
+2025-07-08 18:34:25,142 - src.scraper.sites.generic_ai_scraper - WARNING - No valid products extracted for snapdeal.com with Gemini, falling back to BeautifulSoup.
+2025-07-08 18:34:27,930 - src.scraper.sites.generic_ai_scraper - WARNING - Skipping product with missing link or price: {'productName': 'Blackberrys India Fit Tartan Checks Cutaway Collar Pure Cotton Casual Shirt', 'price': '', 'currency': '', 'link': 'https://www.myntra.com/shirts/blackberrys/blackberrys-india-fit-tartan-checks-cutaway-collar-pure-cotton-casual-shirt/33608079/buy', 'imageUrl': '', 'additionalInfo': None, 'source': 'myntra.com'}
+2025-07-08 18:34:27,930 - src.scraper.sites.generic_ai_scraper - WARNING - Skipping product with missing link or price: {'productName': 'TURMS Men Solid Full Sleeves Stain And Water Repellent Anti Odor Cotton Oxford Shirt', 'price': '', 'currency': '', 'link': 'https://www.myntra.com/shirts/turms/turms-men-solid-full-sleeves-stain-and-water-repellent-anti-odor-cotton-oxford-shirt/29769212/buy', 'imageUrl': '', 'additionalInfo': None, 'source': 'myntra.com'}
+2025-07-08 18:34:27,930 - src.scraper.sites.generic_ai_scraper - WARNING - Skipping product with missing link or price: {'productName': 'Campus Sutra Classic Self Design Spread Collar Casual Shirt', 'price': '', 'currency': '', 'link': 'https://www.myntra.com/shirts/campus+sutra/campus-sutra-classic-self-design-spread-collar-casual-shirt/28219632/buy', 'imageUrl': '', 'additionalInfo': None, 'source': 'myntra.com'}
+2025-07-08 18:34:27,932 - src.scraper.sites.generic_ai_scraper - WARNING - Skipping product with missing link or price: {'productName': 'H&M Regular Fit Linen-Blend Resort Shirt', 'price': '', 'currency': '', 'link': 'https://www.myntra.com/shirts/h%26m/hm-regular-fit-linen-blend-resort-shirt/32825862/buy', 'imageUrl': '', 'additionalInfo': None, 'source': 'myntra.com'}
+2025-07-08 18:34:27,932 - src.scraper.sites.generic_ai_scraper - WARNING - Skipping product with missing link or price: {'productName': 'Richlook Men Comfort Opaque Casual Shirt', 'price': '', 'currency': '', 'link': 'https://www.myntra.com/shirts/richlook/richlook-men-comfort-opaque-casual-shirt/33213005/buy', 'imageUrl': '', 'additionalInfo': None, 'source': 'myntra.com'}
+2025-07-08 18:34:27,932 - src.scraper.sites.generic_ai_scraper - WARNING - No valid products extracted for myntra.com with Gemini, falling back to BeautifulSoup.
+2025-07-08 18:34:28,027 - src.scraper.sites.generic_ai_scraper - WARNING - No valid products extracted for amazon.in with Gemini, falling back to BeautifulSoup.
+2025-07-08 18:36:52,677 - src.scraper.scraper_manager - INFO - Loaded scraper: generic_ai
+2025-07-08 18:36:52,677 - src.scraper.scraper_manager - INFO - Loaded scraper: flipkart
+2025-07-08 18:36:52,678 - src.scraper.scraper_manager - INFO - Loaded scraper: amazon
+2025-07-08 18:36:52,732 - src.scraper.sites.amazon - INFO - Searching Amazon india: https://www.amazon.com/s?k=shoes
+2025-07-08 18:36:53,053 - src.scraper.base_scraper - ERROR - Failed to fetch https://www.amazon.com/s?k=shoes, status code: 503
+2025-07-08 18:36:53,054 - src.scraper.sites.amazon - ERROR - Failed to fetch Amazon search results for shoes in india
+2025-07-08 18:36:53,716 - src.scraper.sites.generic_ai_scraper - INFO - Searching amazon.in for shoes in india: https://www.amazon.in/s?k=shoes
+2025-07-08 18:36:53,716 - src.scraper.sites.generic_ai_scraper - INFO - Searching flipkart.com for shoes in india: https://www.flipkart.com/search?q=shoes
+2025-07-08 18:36:53,716 - src.scraper.sites.generic_ai_scraper - INFO - Searching myntra.com for shoes in india: https://www.myntra.com/search?q=shoes
+2025-07-08 18:36:53,716 - src.scraper.sites.generic_ai_scraper - INFO - Searching ajio.com for shoes in india: https://www.ajio.com/search?q=shoes
+2025-07-08 18:36:53,716 - src.scraper.sites.generic_ai_scraper - INFO - Searching snapdeal.com for shoes in india: https://www.snapdeal.com/search?q=shoes
+2025-07-08 18:36:53,806 - src.scraper.base_scraper - ERROR - Failed to fetch https://www.ajio.com/search?q=shoes, status code: 403
+2025-07-08 18:36:53,806 - src.scraper.sites.generic_ai_scraper - ERROR - Failed to fetch search results from ajio.com
+2025-07-08 18:36:54,023 - src.scraper.base_scraper - ERROR - Failed to fetch https://www.flipkart.com/search?q=shoes, status code: 429
+2025-07-08 18:36:54,025 - src.scraper.sites.generic_ai_scraper - ERROR - Failed to fetch search results from flipkart.com
+2025-07-08 18:36:56,450 - src.scraper.sites.generic_ai_scraper - WARNING - No valid products extracted for snapdeal.com with Gemini, falling back to BeautifulSoup.
+2025-07-08 18:36:57,393 - src.scraper.sites.generic_ai_scraper - WARNING - No valid products extracted for amazon.in with Gemini, falling back to BeautifulSoup.
+2025-07-08 18:36:58,209 - src.scraper.sites.generic_ai_scraper - WARNING - Skipping product with missing link or price: {'productName': 'Blackberrys India Fit Tartan Checks Cutaway Collar Pure Cotton Casual Shirt', 'price': '', 'currency': '', 'link': 'https://www.myntra.com/shirts/blackberrys/blackberrys-india-fit-tartan-checks-cutaway-collar-pure-cotton-casual-shirt/33608079/buy', 'imageUrl': '', 'additionalInfo': None, 'source': 'myntra.com'}
+2025-07-08 18:36:58,209 - src.scraper.sites.generic_ai_scraper - WARNING - Skipping product with missing link or price: {'productName': 'Richlook Men Comfort Opaque Casual Shirt', 'price': '', 'currency': '', 'link': 'https://www.myntra.com/shirts/richlook/richlook-men-comfort-opaque-casual-shirt/33213005/buy', 'imageUrl': '', 'additionalInfo': None, 'source': 'myntra.com'}
+2025-07-08 18:36:58,210 - src.scraper.sites.generic_ai_scraper - WARNING - Skipping product with missing link or price: {'productName': 'Campus Sutra Classic Self Design Spread Collar Casual Shirt', 'price': '', 'currency': '', 'link': 'https://www.myntra.com/shirts/campus+sutra/campus-sutra-classic-self-design-spread-collar-casual-shirt/28219632/buy', 'imageUrl': '', 'additionalInfo': None, 'source': 'myntra.com'}
+2025-07-08 18:36:58,210 - src.scraper.sites.generic_ai_scraper - WARNING - Skipping product with missing link or price: {'productName': 'H&M Regular Fit Linen-Blend Resort Shirt', 'price': '', 'currency': '', 'link': 'https://www.myntra.com/shirts/h%26m/hm-regular-fit-linen-blend-resort-shirt/32825862/buy', 'imageUrl': '', 'additionalInfo': None, 'source': 'myntra.com'}
+2025-07-08 18:36:58,210 - src.scraper.sites.generic_ai_scraper - WARNING - Skipping product with missing link or price: {'productName': 'The Indian Garage Co Men Cream-Coloured & Navy Blue Tartan Checked Shirt', 'price': '', 'currency': '', 'link': 'https://www.myntra.com/shirts/the+indian+garage+co/the-indian-garage-co-men-cream-coloured--navy-blue-tartan-checked-shirt/17406394/buy', 'imageUrl': '', 'additionalInfo': None, 'source': 'myntra.com'}
+2025-07-08 18:36:58,210 - src.scraper.sites.generic_ai_scraper - WARNING - No valid products extracted for myntra.com with Gemini, falling back to BeautifulSoup.
+2025-07-08 18:38:24,155 - src.scraper.scraper_manager - INFO - Loaded scraper: generic_ai
+2025-07-08 18:38:24,165 - src.scraper.scraper_manager - INFO - Loaded scraper: flipkart
+2025-07-08 18:38:24,166 - src.scraper.scraper_manager - INFO - Loaded scraper: amazon
+2025-07-08 18:38:24,173 - src.scraper.sites.flipkart - INFO - Searching Flipkart: https://www.flipkart.com/search?q=shoes
+2025-07-08 18:38:24,198 - src.scraper.sites.amazon - INFO - Searching Amazon in: https://www.amazon.in/s?k=shoes
+2025-07-08 18:38:26,830 - src.scraper.sites.flipkart - ERROR - Failed to parse Gemini JSON: Expecting value: line 1 column 1 (char 0)
+Raw: Okay, I will extract the product listings from the provided HTML content, focusing on the "shoes" search query. Due to the truncated nature of the HTML, I won't be able to extract the data. If you can provide the complete HTML content, I can extract the details.
+
+2025-07-08 19:08:15,441 - src.scraper.scraper_manager - INFO - Loaded scraper: generic_ai
+2025-07-08 19:08:15,443 - src.scraper.scraper_manager - INFO - Loaded scraper: flipkart
+2025-07-08 19:08:15,443 - src.scraper.scraper_manager - INFO - Loaded scraper: amazon
+2025-07-08 19:08:15,443 - src.scraper.sites.generic_ai_scraper - ERROR - Error in generic AI search: 'NoneType' object is not subscriptable
+2025-07-08 19:08:15,443 - src.scraper.sites.amazon - INFO - Searching Amazon india: https://www.amazon.com/s?k=shoes
+2025-07-08 19:08:16,176 - src.scraper.base_scraper - ERROR - Failed to fetch https://www.amazon.com/s?k=shoes, status code: 503
+2025-07-08 19:08:16,177 - src.scraper.sites.amazon - ERROR - Failed to fetch Amazon search results for shoes in india
+2025-07-08 19:08:46,435 - src.scraper.scraper_manager - INFO - Loaded scraper: generic_ai
+2025-07-08 19:08:46,436 - src.scraper.scraper_manager - INFO - Loaded scraper: flipkart
+2025-07-08 19:08:46,436 - src.scraper.scraper_manager - INFO - Loaded scraper: amazon
+2025-07-08 19:08:46,491 - src.scraper.sites.amazon - INFO - Searching Amazon india: https://www.amazon.com/s?k=shoes
+2025-07-08 19:08:49,184 - src.utils.ai_helper - ERROR - Gemini API error: Server error '503 Service Unavailable' for url 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=AIzaSyDTNryJ4Nwb2MVBaObKa4IqQYXK2J7R5BQ'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/503
+2025-07-08 19:08:49,184 - src.scraper.sites.generic_ai_scraper - INFO - Searching amazon.com for shoes in india: https://www.amazon.com/s?k=shoes
+2025-07-08 19:08:49,185 - src.scraper.sites.generic_ai_scraper - INFO - Searching walmart.com for shoes in india: https://www.walmart.com/search/?query=shoes
+2025-07-08 19:08:49,185 - src.scraper.sites.generic_ai_scraper - INFO - Searching bestbuy.com for shoes in india: https://www.bestbuy.com/search?q=shoes
+2025-07-08 19:08:49,185 - src.scraper.sites.generic_ai_scraper - INFO - Searching target.com for shoes in india: https://www.target.com/search?q=shoes
+2025-07-08 19:08:49,185 - src.scraper.sites.generic_ai_scraper - INFO - Searching ebay.com for shoes in india: https://www.ebay.com/sch/i.html?_nkw=shoes
+2025-07-08 19:08:49,330 - src.scraper.base_scraper - ERROR - Failed to fetch https://www.target.com/search?q=shoes, status code: 404
+2025-07-08 19:08:49,331 - src.scraper.sites.generic_ai_scraper - ERROR - Failed to fetch search results from target.com
+2025-07-08 19:08:49,494 - src.scraper.base_scraper - ERROR - Failed to fetch https://www.amazon.com/s?k=shoes, status code: 503
+2025-07-08 19:08:49,495 - src.scraper.sites.generic_ai_scraper - ERROR - Failed to fetch search results from amazon.com
+2025-07-08 19:08:50,004 - src.utils.ai_helper - ERROR - Gemini API error: Server error '503 Service Unavailable' for url 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=AIzaSyDTNryJ4Nwb2MVBaObKa4IqQYXK2J7R5BQ'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/503
+2025-07-08 19:08:50,004 - src.scraper.sites.amazon - ERROR - Failed to parse Gemini JSON: Expecting value: line 1 column 1 (char 0)
+Raw: 
+2025-07-08 19:08:59,363 - src.scraper.base_scraper - ERROR - Error fetching https://www.ebay.com/sch/i.html?_nkw=shoes: 
+2025-07-08 19:08:59,363 - src.scraper.sites.generic_ai_scraper - ERROR - Failed to fetch search results from ebay.com
+2025-07-08 19:08:59,363 - src.scraper.base_scraper - ERROR - Error fetching https://www.bestbuy.com/search?q=shoes: 
+2025-07-08 19:08:59,363 - src.scraper.sites.generic_ai_scraper - ERROR - Failed to fetch search results from bestbuy.com
+2025-07-08 19:09:01,380 - src.scraper.sites.generic_ai_scraper - WARNING - Skipping product with missing link or price: {'productName': 'Blikcon Boys Girls Slip On Casual Boat Shoes Light Weight Lace Up Loafers Toddler Little Kid Big Kid', 'price': '', 'currency': '', 'link': 'https://i5.walmartimages.com/seo/Blikcon-Boys-Girls-Slip-On-Casual-Boat-Shoes-Light-Weight-Lace-Up-Loafers-Toddler-Little-Kid-Big-Kid_d30412b9-ec3a-49e8-ba23-1a6293b6f16d.dbb0dc40e5c6d819e83ed99b4af6d00f.jpeg?odnHeight=180&odnWidth=180&odnBg=FFFFFF', 'imageUrl': 'https://i5.walmartimages.com/seo/Blikcon-Boys-Girls-Slip-On-Casual-Boat-Shoes-Light-Weight-Lace-Up-Loafers-Toddler-Little-Kid-Big-Kid_d30412b9-ec3a-49e8-ba23-1a6293b6f16d.dbb0dc40e5c6d819e83ed99b4af6d00f.jpeg?odnHeight=784&odnWidth=580&odnBg=FFFFFF', 'additionalInfo': None, 'source': 'walmart.com'}
+2025-07-08 19:09:01,380 - src.scraper.sites.generic_ai_scraper - WARNING - Skipping product with missing link or price: {'productName': "BERANMEY Women's Lightweight Sport Barefoot Shoes Non-slip Breathable Footwear Water Shoes Womens Mens Athletic Hike Wide Toe Box Shoes Outdoor Swim", 'price': '', 'currency': '', 'link': 'https://i5.walmartimages.com/seo/BERANMEY-Women-s-Lightweight-Sport-Barefoot-Shoes-Non-slip-Breathable-Footwear-Water-Shoes-Womens-Mens-Athletic-Hike-Wide-Toe-Box-Shoes-Outdoor-Swim_c70e0d70-f0dc-44d1-b7a4-0475b96572a0.d274d94dedbbd4422e01cee711ede170.jpeg?odnHeight=784&odnWidth=580&odnBg=FFFFFF', 'imageUrl': 'https://i5.walmartimages.com/seo/BERANMEY-Women-s-Lightweight-Sport-Barefoot-Shoes-Non-slip-Breathable-Footwear-Water-Shoes-Womens-Mens-Athletic-Hike-Wide-Toe-Box-Shoes-Outdoor-Swim_c70e0d70-f0dc-44d1-b7a4-0475b96572a0.d274d94dedbbd4422e01cee711ede170.jpeg?odnHeight=784&odnWidth=580&odnBg=FFFFFF', 'additionalInfo': None, 'source': 'walmart.com'}
+2025-07-08 19:09:01,380 - src.scraper.sites.generic_ai_scraper - WARNING - Skipping product with missing link or price: {'productName': 'GUBARUN Unisex Breathable Barefoot Shoes Wide Toe Box Zero Drop for Men Women Minimalist Comfort Sneakers', 'price': '', 'currency': '', 'link': 'https://i5.walmartimages.com/seo/GUBARUN-Unisex-Breathable-Barefoot-Shoes-Wide-Toe-Box-Zero-Drop-for-Men-Women-Minimalist-Comfort-Sneakers_68bdc6ab-e0fa-415b-9613-ccac8d65d3b1.3c71fb073685dc06870c81de7bce78fe.jpeg?odnHeight=784&odnWidth=580&odnBg=FFFFFF', 'imageUrl': 'https://i5.walmartimages.com/seo/GUBARUN-Unisex-Breathable-Barefoot-Shoes-Wide-Toe-Box-Zero-Drop-for-Men-Women-Minimalist-Comfort-Sneakers_68bdc6ab-e0fa-415b-9613-ccac8d65d3b1.3c71fb073685dc06870c81de7bce78fe.jpeg?odnHeight=784&odnWidth=580&odnBg=FFFFFF', 'additionalInfo': None, 'source': 'walmart.com'}
+2025-07-08 19:09:01,381 - src.scraper.sites.generic_ai_scraper - WARNING - Skipping product with missing link or price: {'productName': "Skechers Men's After Burn Memory Fit Reprint Training Shoe Wide Width Available", 'price': '', 'currency': '', 'link': 'https://i5.walmartimages.com/seo/Skechers-Men-s-After-Burn-Memory-Fit-Reprint-Training-Shoe-Wide-Width-Available_11557f2a-ba2f-4d09-8ccd-0785b12ffb5a.de6738a2cf5f560ed525049b4d2f3839.jpeg?odnHeight=784&odnWidth=580&odnBg=FFFFFF', 'imageUrl': 'https://i5.walmartimages.com/seo/Skechers-Men-s-After-Burn-Memory-Fit-Reprint-Training-Shoe-Wide-Width-Available_11557f2a-ba2f-4d09-8ccd-0785b12ffb5a.de6738a2cf5f560ed525049b4d2f3839.jpeg?odnHeight=784&odnWidth=580&odnBg=FFFFFF', 'additionalInfo': None, 'source': 'walmart.com'}
+2025-07-08 19:09:01,381 - src.scraper.sites.generic_ai_scraper - WARNING - No valid products extracted for walmart.com with Gemini, falling back to BeautifulSoup.
+2025-07-08 19:09:38,897 - src.scraper.scraper_manager - INFO - Loaded scraper: generic_ai
+2025-07-08 19:09:38,897 - src.scraper.scraper_manager - INFO - Loaded scraper: flipkart
+2025-07-08 19:09:38,898 - src.scraper.scraper_manager - INFO - Loaded scraper: amazon
+2025-07-08 19:09:38,914 - src.scraper.sites.amazon - INFO - Searching Amazon india: https://www.amazon.com/s?k=mobile
+2025-07-08 19:09:39,311 - src.scraper.base_scraper - ERROR - Failed to fetch https://www.amazon.com/s?k=mobile, status code: 503
+2025-07-08 19:09:39,312 - src.scraper.sites.amazon - ERROR - Failed to fetch Amazon search results for mobile in india
+2025-07-08 19:09:40,692 - src.utils.ai_helper - ERROR - Gemini API error: Server error '503 Service Unavailable' for url 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=AIzaSyDTNryJ4Nwb2MVBaObKa4IqQYXK2J7R5BQ'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/503
+2025-07-08 19:09:40,693 - src.scraper.sites.generic_ai_scraper - INFO - Searching amazon.com for mobile in india: https://www.amazon.com/s?k=mobile
+2025-07-08 19:09:40,694 - src.scraper.sites.generic_ai_scraper - INFO - Searching walmart.com for mobile in india: https://www.walmart.com/search/?query=mobile
+2025-07-08 19:09:40,694 - src.scraper.sites.generic_ai_scraper - INFO - Searching bestbuy.com for mobile in india: https://www.bestbuy.com/search?q=mobile
+2025-07-08 19:09:40,694 - src.scraper.sites.generic_ai_scraper - INFO - Searching target.com for mobile in india: https://www.target.com/search?q=mobile
+2025-07-08 19:09:40,695 - src.scraper.sites.generic_ai_scraper - INFO - Searching ebay.com for mobile in india: https://www.ebay.com/sch/i.html?_nkw=mobile
+2025-07-08 19:09:40,806 - src.scraper.base_scraper - ERROR - Failed to fetch https://www.target.com/search?q=mobile, status code: 404
+2025-07-08 19:09:40,807 - src.scraper.sites.generic_ai_scraper - ERROR - Failed to fetch search results from target.com
+2025-07-08 19:09:41,039 - src.scraper.base_scraper - ERROR - Failed to fetch https://www.amazon.com/s?k=mobile, status code: 503
+2025-07-08 19:09:41,039 - src.scraper.sites.generic_ai_scraper - ERROR - Failed to fetch search results from amazon.com
+2025-07-08 19:09:50,021 - src.utils.ai_helper - ERROR - Gemini API error: Server error '503 Service Unavailable' for url 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=AIzaSyDTNryJ4Nwb2MVBaObKa4IqQYXK2J7R5BQ'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/503
+2025-07-08 19:09:50,022 - src.scraper.sites.generic_ai_scraper - ERROR - Failed to parse Gemini JSON: Expecting value: line 1 column 1 (char 0)
+Raw: 
+2025-07-08 19:09:51,364 - src.scraper.base_scraper - ERROR - Error fetching https://www.ebay.com/sch/i.html?_nkw=mobile: 
+2025-07-08 19:09:51,365 - src.scraper.sites.generic_ai_scraper - ERROR - Failed to fetch search results from ebay.com
+2025-07-08 19:09:51,366 - src.scraper.base_scraper - ERROR - Error fetching https://www.bestbuy.com/search?q=mobile: 
+2025-07-08 19:09:51,366 - src.scraper.sites.generic_ai_scraper - ERROR - Failed to fetch search results from bestbuy.com
+2025-07-08 19:11:48,153 - src.scraper.scraper_manager - INFO - Loaded scraper: generic_ai
+2025-07-08 19:11:48,155 - src.scraper.scraper_manager - INFO - Loaded scraper: flipkart
+2025-07-08 19:11:48,155 - src.scraper.scraper_manager - INFO - Loaded scraper: amazon
+2025-07-08 19:11:48,157 - src.scraper.sites.amazon - INFO - Searching Amazon us: https://www.amazon.com/s?k=mobile
+2025-07-08 19:11:48,976 - src.scraper.base_scraper - ERROR - Failed to fetch https://www.amazon.com/s?k=mobile, status code: 503
+2025-07-08 19:11:48,977 - src.scraper.sites.amazon - ERROR - Failed to fetch Amazon search results for mobile in us
+2025-07-08 19:13:02,114 - src.scraper.scraper_manager - INFO - Loaded scraper: generic_ai
+2025-07-08 19:13:02,114 - src.scraper.scraper_manager - INFO - Loaded scraper: flipkart
+2025-07-08 19:13:02,115 - src.scraper.scraper_manager - INFO - Loaded scraper: amazon
+2025-07-08 19:13:02,162 - src.scraper.sites.amazon - INFO - Searching Amazon india: https://www.amazon.com/s?k=bags
+2025-07-08 19:13:03,094 - src.scraper.base_scraper - ERROR - Failed to fetch https://www.amazon.com/s?k=bags, status code: 503
+2025-07-08 19:13:03,096 - src.scraper.sites.amazon - ERROR - Failed to fetch Amazon search results for bags in india
+2025-07-08 19:13:04,633 - src.scraper.sites.generic_ai_scraper - INFO - Searching amazon.in for bags in india: https://www.amazon.in/s?k=bags
+2025-07-08 19:13:04,633 - src.scraper.sites.generic_ai_scraper - INFO - Searching flipkart.com for bags in india: https://www.flipkart.com/search?q=bags
+2025-07-08 19:13:04,633 - src.scraper.sites.generic_ai_scraper - INFO - Searching myntra.com for bags in india: https://www.myntra.com/search?q=bags
+2025-07-08 19:13:04,633 - src.scraper.sites.generic_ai_scraper - INFO - Searching ajio.com for bags in india: https://www.ajio.com/search?q=bags
+2025-07-08 19:13:04,633 - src.scraper.sites.generic_ai_scraper - INFO - Searching jiomart.com for bags in india: https://www.jiomart.com/search?q=bags
+2025-07-08 19:13:04,740 - src.scraper.base_scraper - ERROR - Failed to fetch https://www.ajio.com/search?q=bags, status code: 403
+2025-07-08 19:13:04,741 - src.scraper.sites.generic_ai_scraper - ERROR - Failed to fetch search results from ajio.com
+2025-07-08 19:13:04,789 - src.scraper.base_scraper - ERROR - Failed to fetch https://www.flipkart.com/search?q=bags, status code: 429
+2025-07-08 19:13:04,790 - src.scraper.sites.generic_ai_scraper - ERROR - Failed to fetch search results from flipkart.com
+2025-07-08 19:13:04,856 - src.scraper.base_scraper - ERROR - Failed to fetch https://www.amazon.in/s?k=bags, status code: 503
+2025-07-08 19:13:04,857 - src.scraper.sites.generic_ai_scraper - ERROR - Failed to fetch search results from amazon.in
+2025-07-08 19:13:07,569 - src.scraper.sites.generic_ai_scraper - WARNING - No valid products extracted for jiomart.com with Gemini, falling back to BeautifulSoup.
+2025-07-08 19:13:07,742 - src.utils.ai_helper - ERROR - Gemini API error: Server error '503 Service Unavailable' for url 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=AIzaSyDTNryJ4Nwb2MVBaObKa4IqQYXK2J7R5BQ'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/503
+2025-07-08 19:13:07,742 - src.scraper.sites.generic_ai_scraper - ERROR - Failed to parse Gemini JSON: Expecting value: line 1 column 1 (char 0)
+Raw: 
+2025-07-08 19:16:31,754 - src.scraper.scraper_manager - INFO - Loaded scraper: generic_ai
+2025-07-08 19:16:31,755 - src.scraper.scraper_manager - INFO - Loaded scraper: flipkart
+2025-07-08 19:16:31,755 - src.scraper.scraper_manager - INFO - Loaded scraper: amazon
+2025-07-08 19:16:31,806 - src.scraper.sites.amazon - INFO - Searching Amazon india: https://www.amazon.com/s?k=bags
+2025-07-08 19:16:52,734 - src.scraper.sites.generic_ai_scraper - INFO - Searching amazon.in for bags in india: https://www.amazon.in/s?k=bags
+2025-07-08 19:16:59,347 - src.scraper.sites.generic_ai_scraper - INFO - Searching flipkart.com for bags in india: https://www.flipkart.com/search?q=bags
+2025-07-08 19:17:07,511 - src.scraper.sites.generic_ai_scraper - INFO - Searching myntra.com for bags in india: https://www.myntra.com/search?q=bags
+2025-07-08 19:17:14,723 - src.scraper.sites.generic_ai_scraper - INFO - Searching ajio.com for bags in india: https://www.ajio.com/search?q=bags
+2025-07-08 19:17:30,845 - src.scraper.sites.generic_ai_scraper - INFO - Searching jiomart.com for bags in india: https://www.jiomart.com/search?q=bags
+2025-07-08 19:17:36,664 - src.scraper.sites.amazon - ERROR - Failed to parse Gemini JSON: Expecting value: line 1 column 1 (char 0)
+Raw: I am unable to extract product listings from the provided HTML content. The HTML appears to be an Amazon error page, not a search results page. It does not contain any product information like product names, prices, or image URLs.
+
+2025-07-08 19:17:36,756 - src.scraper.base_scraper - ERROR - Failed to fetch https://www.ajio.com/search?q=bags, status code: 403
+2025-07-08 19:17:36,756 - src.scraper.sites.generic_ai_scraper - ERROR - Failed to fetch search results from ajio.com
+2025-07-08 19:17:38,359 - src.scraper.sites.generic_ai_scraper - WARNING - No valid products extracted for flipkart.com with Gemini, falling back to BeautifulSoup.
+2025-07-08 19:17:39,731 - src.scraper.sites.generic_ai_scraper - WARNING - No valid products extracted for amazon.in with Gemini, falling back to BeautifulSoup.
+2025-07-08 19:17:39,888 - src.scraper.sites.generic_ai_scraper - WARNING - No valid products extracted for jiomart.com with Gemini, falling back to BeautifulSoup.
+2025-07-08 19:17:42,614 - src.utils.ai_helper - ERROR - Gemini API error: Server error '503 Service Unavailable' for url 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=AIzaSyDTNryJ4Nwb2MVBaObKa4IqQYXK2J7R5BQ'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/503
+2025-07-08 19:17:42,614 - src.scraper.sites.generic_ai_scraper - ERROR - Failed to parse Gemini JSON: Expecting value: line 1 column 1 (char 0)
+Raw: 
+2025-07-08 19:23:39,322 - src.scraper.scraper_manager - INFO - Loaded scraper: generic_ai
+2025-07-08 19:23:39,328 - src.scraper.scraper_manager - INFO - Loaded scraper: flipkart
+2025-07-08 19:23:39,328 - src.scraper.scraper_manager - INFO - Loaded scraper: amazon
+2025-07-08 19:23:39,329 - src.scraper.sites.amazon - INFO - Searching Amazon us: https://www.amazon.com/s?k=smartphones
+2025-07-08 19:27:33,558 - src.scraper.scraper_manager - INFO - Loaded scraper: generic_ai
+2025-07-08 19:27:33,566 - src.scraper.scraper_manager - INFO - Loaded scraper: flipkart
+2025-07-08 19:27:33,567 - src.scraper.scraper_manager - INFO - Loaded scraper: amazon
+2025-07-08 19:27:33,569 - src.scraper.sites.amazon - INFO - Searching Amazon india: https://www.amazon.com/s?k=watch
+2025-07-08 19:27:43,072 - src.scraper.sites.generic_ai_scraper - INFO - Searching amazon.in for watch in india: https://www.amazon.in/s?k=watch
+2025-07-08 19:27:49,578 - src.scraper.sites.generic_ai_scraper - INFO - Searching flipkart.com for watch in india: https://www.flipkart.com/search?q=watch
+2025-07-08 19:27:55,800 - src.scraper.sites.generic_ai_scraper - INFO - Searching myntra.com for watch in india: https://www.myntra.com/search?q=watch
+2025-07-08 19:28:02,561 - src.scraper.sites.generic_ai_scraper - INFO - Searching ajio.com for watch in india: https://www.ajio.com/search?q=watch
+2025-07-08 19:28:18,591 - src.scraper.sites.generic_ai_scraper - INFO - Searching jiomart.com for watch in india: https://www.jiomart.com/search?q=watch
+2025-07-08 19:28:24,473 - src.scraper.base_scraper - ERROR - Failed to fetch https://www.ajio.com/search?q=watch, status code: 403
+2025-07-08 19:28:24,474 - src.scraper.sites.generic_ai_scraper - ERROR - Failed to fetch search results from ajio.com
+2025-07-08 19:28:26,293 - src.utils.ai_helper - ERROR - Gemini API error: Server error '503 Service Unavailable' for url 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=AIzaSyDTNryJ4Nwb2MVBaObKa4IqQYXK2J7R5BQ'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/503
+2025-07-08 19:28:26,293 - src.scraper.sites.generic_ai_scraper - ERROR - Failed to parse Gemini JSON: Expecting value: line 1 column 1 (char 0)
+Raw: 
+2025-07-08 19:28:26,661 - src.scraper.sites.generic_ai_scraper - ERROR - Failed to parse Gemini JSON: Expecting value: line 1 column 1 (char 0)
+Raw: I am sorry, but I lack the capability to extract the information you requested directly from the HTML content because the provided snippet is incomplete and does not contain product details, pricing, or image links. Therefore, I am unable to fulfill the request to create a JSON list of product objects.
+
+2025-07-08 19:28:27,366 - src.scraper.sites.generic_ai_scraper - WARNING - No valid products extracted for amazon.in with Gemini, falling back to BeautifulSoup.
+2025-07-08 19:28:28,955 - src.scraper.sites.generic_ai_scraper - WARNING - Skipping product with missing link or price: {'productName': 'United Colors of Benetton Slim Fit Spread Collar Long Sleeves Casual Shirt', 'price': '', 'currency': '', 'link': 'https://www.myntra.com/shirts/united+colors+of+benetton/united-colors-of-benetton-slim-fit-spread-collar-long-sleeves-casual-shirt/29298200/buy', 'imageUrl': '', 'additionalInfo': None, 'source': 'myntra.com'}
+2025-07-08 19:28:28,955 - src.scraper.sites.generic_ai_scraper - WARNING - Skipping product with missing link or price: {'productName': 'Richlook Men Comfort Opaque Casual Shirt', 'price': '', 'currency': '', 'link': 'https://www.myntra.com/shirts/richlook/richlook-men-comfort-opaque-casual-shirt/33213005/buy', 'imageUrl': '', 'additionalInfo': None, 'source': 'myntra.com'}
+2025-07-08 19:28:28,955 - src.scraper.sites.generic_ai_scraper - WARNING - Skipping product with missing link or price: {'productName': 'Campus Sutra Classic Self Design Spread Collar Casual Shirt', 'price': '', 'currency': '', 'link': 'https://www.myntra.com/shirts/campus+sutra/campus-sutra-classic-self-design-spread-collar-casual-shirt/28219632/buy', 'imageUrl': '', 'additionalInfo': None, 'source': 'myntra.com'}
+2025-07-08 19:28:28,955 - src.scraper.sites.generic_ai_scraper - WARNING - Skipping product with missing link or price: {'productName': 'H&M Regular Fit Linen-Blend Resort Shirt', 'price': '', 'currency': '', 'link': 'https://www.myntra.com/shirts/h%26m/hm-regular-fit-linen-blend-resort-shirt/32825862/buy', 'imageUrl': '', 'additionalInfo': None, 'source': 'myntra.com'}
+2025-07-08 19:28:28,955 - src.scraper.sites.generic_ai_scraper - WARNING - Skipping product with missing link or price: {'productName': 'The Indian Garage Co Men Cream-Coloured & Navy Blue Tartan Checked Shirt', 'price': '', 'currency': '', 'link': 'https://www.myntra.com/shirts/the+indian+garage+co/the-indian-garage-co-men-cream-coloured--navy-blue-tartan-checked-shirt/17406394/buy', 'imageUrl': '', 'additionalInfo': None, 'source': 'myntra.com'}
+2025-07-08 19:28:28,955 - src.scraper.sites.generic_ai_scraper - WARNING - No valid products extracted for myntra.com with Gemini, falling back to BeautifulSoup.
+2025-07-08 19:38:33,119 - src.scraper.scraper_manager - INFO - Loaded scraper: generic_ai
+2025-07-08 19:38:33,120 - src.scraper.scraper_manager - INFO - Loaded scraper: flipkart
+2025-07-08 19:38:33,120 - src.scraper.scraper_manager - INFO - Loaded scraper: amazon
+2025-07-08 19:38:33,181 - src.scraper.sites.amazon - INFO - Searching Amazon india: https://www.amazon.com/s?k=shoes
+2025-07-08 19:38:35,385 - src.utils.ai_helper - ERROR - Gemini API error: Server error '503 Service Unavailable' for url 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=AIzaSyDTNryJ4Nwb2MVBaObKa4IqQYXK2J7R5BQ'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/503
+2025-07-08 19:38:35,386 - src.scraper.sites.generic_ai_scraper - INFO - Searching amazon.com for shoes in india: https://www.amazon.com/s?k=shoes
+2025-07-08 19:38:35,386 - src.scraper.sites.generic_ai_scraper - INFO - Searching walmart.com for shoes in india: https://www.walmart.com/search/?query=shoes
+2025-07-08 19:38:35,386 - src.scraper.sites.generic_ai_scraper - INFO - Searching bestbuy.com for shoes in india: https://www.bestbuy.com/search?q=shoes
+2025-07-08 19:38:35,386 - src.scraper.sites.generic_ai_scraper - INFO - Searching target.com for shoes in india: https://www.target.com/search?q=shoes
+2025-07-08 19:38:35,387 - src.scraper.sites.generic_ai_scraper - INFO - Searching ebay.com for shoes in india: https://www.ebay.com/sch/i.html?_nkw=shoes
+2025-07-08 19:38:35,492 - src.scraper.base_scraper - ERROR - Failed to fetch https://www.target.com/search?q=shoes, status code: 404
+2025-07-08 19:38:35,493 - src.scraper.sites.generic_ai_scraper - ERROR - Failed to fetch search results from target.com
+2025-07-08 19:38:41,732 - src.utils.ai_helper - ERROR - Gemini API error: Server error '503 Service Unavailable' for url 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=AIzaSyDTNryJ4Nwb2MVBaObKa4IqQYXK2J7R5BQ'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/503
+2025-07-08 19:38:41,736 - src.scraper.sites.generic_ai_scraper - ERROR - Failed to parse Gemini JSON: Expecting value: line 1 column 1 (char 0)
+Raw: 
+2025-07-08 19:38:46,011 - src.scraper.base_scraper - ERROR - Failed to fetch https://www.ebay.com/sch/i.html?_nkw=shoes, status code: 503
+2025-07-08 19:38:46,012 - src.scraper.sites.generic_ai_scraper - ERROR - Failed to fetch search results from ebay.com
+2025-07-08 19:38:50,853 - src.scraper.sites.generic_ai_scraper - WARNING - Skipping product with missing link or price: {'productName': 'GUBARUN Unisex Breathable Barefoot Shoes Wide Toe Box Zero Drop for Men Women Minimalist Comfort Sneakers', 'price': '', 'currency': '', 'link': 'https://i5.walmartimages.com/seo/GUBARUN-Unisex-Breathable-Barefoot-Shoes-Wide-Toe-Box-Zero-Drop-for-Men-Women-Minimalist-Comfort-Sneakers_68bdc6ab-e0fa-415b-9613-ccac8d65d3b1.3c71fb073685dc06870c81de7bce78fe.jpeg?odnHeight=180&odnWidth=180&odnBg=FFFFFF', 'imageUrl': 'https://i5.walmartimages.com/seo/GUBARUN-Unisex-Breathable-Barefoot-Shoes-Wide-Toe-Box-Zero-Drop-for-Men-Women-Minimalist-Comfort-Sneakers_68bdc6ab-e0fa-415b-9613-ccac8d65d3b1.3c71fb073685dc06870c81de7bce78fe.jpeg?odnHeight=784&odnWidth=580&odnBg=FFFFFF', 'additionalInfo': None, 'source': 'walmart.com'}
+2025-07-08 19:38:50,853 - src.scraper.sites.generic_ai_scraper - WARNING - Skipping product with missing link or price: {'productName': "BERANMEY Women's Lightweight Sport Barefoot Shoes Non-slip Breathable Footwear Water Shoes Womens Mens Athletic Hike Wide Toe Box Shoes Outdoor Swim", 'price': '', 'currency': '', 'link': 'https://i5.walmartimages.com/seo/BERANMEY-Women-s-Lightweight-Sport-Barefoot-Shoes-Non-slip-Breathable-Footwear-Water-Shoes-Womens-Mens-Athletic-Hike-Wide-Toe-Box-Shoes-Outdoor-Swim_c70e0d70-f0dc-44d1-b7a4-0475b96572a0.d274d94dedbbd4422e01cee711ede170.jpeg?odnHeight=180&odnWidth=180&odnBg=FFFFFF', 'imageUrl': 'https://i5.walmartimages.com/seo/BERANMEY-Women-s-Lightweight-Sport-Barefoot-Shoes-Non-slip-Breathable-Footwear-Water-Shoes-Womens-Mens-Athletic-Hike-Wide-Toe-Box-Shoes-Outdoor-Swim_c70e0d70-f0dc-44d1-b7a4-0475b96572a0.d274d94dedbbd4422e01cee711ede170.jpeg?odnHeight=784&odnWidth=580&odnBg=FFFFFF', 'additionalInfo': None, 'source': 'walmart.com'}
+2025-07-08 19:38:50,853 - src.scraper.sites.generic_ai_scraper - WARNING - Skipping product with missing link or price: {'productName': 'BERANMEY Pro Barefoot Shoes Women Men Wide Toe Box Hiking Water Shoes Non-Slip Breathable Barefoot Swim Surf Shoes Beach Pool Aqua Running Walking Fa', 'price': '', 'currency': '', 'link': 'https://i5.walmartimages.com/seo/BERANMEY-Pro-Barefoot-Shoes-Women-Men-Wide-Toe-Box-Hiking-Water-Shoes-Non-Slip-Breathable-Barefoot-Swim-Surf-Shoes-Beach-Pool-Aqua-Running-Walking-Fa_e4b85604-8e02-49ea-b70c-c2c7e277ed0b.c64c51d1060be7aa234b2188d88a73e9.jpeg?odnHeight=180&odnWidth=180&odnBg=FFFFFF', 'imageUrl': 'https://i5.walmartimages.com/seo/BERANMEY-Pro-Barefoot-Shoes-Women-Men-Wide-Toe-Box-Hiking-Water-Shoes-Non-Slip-Breathable-Barefoot-Swim-Surf-Shoes-Beach-Pool-Aqua-Running-Walking-Fa_e4b85604-8e02-49ea-b70c-c2c7e277ed0b.c64c51d1060be7aa234b2188d88a73e9.jpeg?odnHeight=784&odnWidth=580&odnBg=FFFFFF', 'additionalInfo': None, 'source': 'walmart.com'}
+2025-07-08 19:38:50,853 - src.scraper.sites.generic_ai_scraper - WARNING - Skipping product with missing link or price: {'productName': "Avia Women's 5000 Performance Suede Sneakers Sizes 6-12, Wide Width Available", 'price': '', 'currency': '', 'link': 'https://i5.walmartimages.com/seo/Avia-Women-s-5000-Performance-Suede-Sneakers-Sizes-6-12-Wide-Width-Available_3a0a4fd1-1afe-443f-87eb-a6d21224e429.d790324d20264984fe745ad79b8575b3.jpeg?odnHeight=180&odnWidth=180&odnBg=FFFFFF', 'imageUrl': 'https://i5.walmartimages.com/seo/Avia-Women-s-5000-Performance-Suede-Sneakers-Sizes-6-12-Wide-Width-Available_3a0a4fd1-1afe-443f-87eb-a6d21224e429.d790324d20264984fe745ad79b8575b3.jpeg?odnHeight=784&odnWidth=580&odnBg=FFFFFF', 'additionalInfo': None, 'source': 'walmart.com'}
+2025-07-08 19:38:50,853 - src.scraper.sites.generic_ai_scraper - WARNING - No valid products extracted for walmart.com with Gemini, falling back to BeautifulSoup.
+2025-07-08 19:38:51,386 - src.scraper.base_scraper - ERROR - Error fetching https://www.bestbuy.com/search?q=shoes: 
+2025-07-08 19:38:51,387 - src.scraper.sites.generic_ai_scraper - ERROR - Failed to fetch search results from bestbuy.com
+2025-07-08 19:49:27,416 - src.scraper.scraper_manager - INFO - Loaded scraper: generic_ai
+2025-07-08 19:49:27,417 - src.scraper.scraper_manager - INFO - Loaded scraper: flipkart
+2025-07-08 19:49:27,452 - src.scraper.scraper_manager - INFO - Loaded scraper: amazon
+2025-07-08 19:49:28,755 - src.scraper.sites.amazon - INFO - [Fallback] Searching Amazon india: https://www.amazon.com/s?k=shoes
+2025-07-08 19:49:33,329 - src.scraper.sites.generic_ai_scraper - INFO - Searching amazon.in for shoes in india: https://www.amazon.in/s?k=shoes
+2025-07-08 19:49:33,331 - src.scraper.sites.generic_ai_scraper - INFO - Searching flipkart.com for shoes in india: https://www.flipkart.com/search?q=shoes
+2025-07-08 19:49:33,332 - src.scraper.sites.generic_ai_scraper - INFO - Searching myntra.com for shoes in india: https://www.myntra.com/search?q=shoes
+2025-07-08 19:49:33,332 - src.scraper.sites.generic_ai_scraper - INFO - Searching ajio.com for shoes in india: https://www.ajio.com/search?q=shoes
+2025-07-08 19:49:33,332 - src.scraper.sites.generic_ai_scraper - INFO - Searching jiomart.com for shoes in india: https://www.jiomart.com/search?q=shoes
+2025-07-08 19:49:37,222 - src.utils.ai_helper - ERROR - Gemini API error: Server error '503 Service Unavailable' for url 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=AIzaSyDTNryJ4Nwb2MVBaObKa4IqQYXK2J7R5BQ'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/503
+2025-07-08 19:49:37,223 - src.scraper.sites.amazon - ERROR - Failed to parse Gemini JSON: Expecting value: line 1 column 1 (char 0)
+Raw: 
+2025-07-08 19:49:41,554 - src.scraper.sites.generic_ai_scraper - WARNING - No valid products extracted for amazon.in with Gemini, falling back to BeautifulSoup.
+2025-07-08 19:49:42,674 - src.scraper.sites.generic_ai_scraper - WARNING - No valid products extracted for jiomart.com with Gemini, falling back to BeautifulSoup.
+2025-07-08 19:49:44,929 - src.scraper.sites.generic_ai_scraper - WARNING - Skipping product with missing link or price: {'productName': 'United Colors of Benetton Slim Fit Spread Collar Long Sleeves Casual Shirt', 'price': '', 'currency': '', 'link': 'https://www.myntra.com/shirts/united+colors+of+benetton/united-colors-of-benetton-slim-fit-spread-collar-long-sleeves-casual-shirt/29298200/buy', 'imageUrl': '', 'additionalInfo': None, 'source': 'myntra.com'}
+2025-07-08 19:49:44,929 - src.scraper.sites.generic_ai_scraper - WARNING - Skipping product with missing link or price: {'productName': 'Richlook Men Comfort Opaque Casual Shirt', 'price': '', 'currency': '', 'link': 'https://www.myntra.com/shirts/richlook/richlook-men-comfort-opaque-casual-shirt/33213005/buy', 'imageUrl': '', 'additionalInfo': None, 'source': 'myntra.com'}
+2025-07-08 19:49:44,929 - src.scraper.sites.generic_ai_scraper - WARNING - Skipping product with missing link or price: {'productName': 'Campus Sutra Classic Self Design Spread Collar Casual Shirt', 'price': '', 'currency': '', 'link': 'https://www.myntra.com/shirts/campus+sutra/campus-sutra-classic-self-design-spread-collar-casual-shirt/28219632/buy', 'imageUrl': '', 'additionalInfo': None, 'source': 'myntra.com'}
+2025-07-08 19:49:44,929 - src.scraper.sites.generic_ai_scraper - WARNING - Skipping product with missing link or price: {'productName': 'H&M Regular Fit Linen-Blend Resort Shirt', 'price': '', 'currency': '', 'link': 'https://www.myntra.com/shirts/h%26m/hm-regular-fit-linen-blend-resort-shirt/32825862/buy', 'imageUrl': '', 'additionalInfo': None, 'source': 'myntra.com'}
+2025-07-08 19:49:44,929 - src.scraper.sites.generic_ai_scraper - WARNING - Skipping product with missing link or price: {'productName': 'Rare Ones Boys Checked Shirt', 'price': '', 'currency': '', 'link': 'https://www.myntra.com/shirts/rare+ones/rare-ones-boys-checked-shirt/31715243/buy', 'imageUrl': '', 'additionalInfo': None, 'source': 'myntra.com'}
+2025-07-08 19:49:44,929 - src.scraper.sites.generic_ai_scraper - WARNING - No valid products extracted for myntra.com with Gemini, falling back to BeautifulSoup.
+2025-07-08 19:50:03,404 - src.scraper.base_scraper - ERROR - ScraperAPI fetch failed for https://www.ajio.com/search?q=shoes: 
+2025-07-08 19:50:20,968 - src.scraper.sites.generic_ai_scraper - WARNING - No valid products extracted for flipkart.com with Gemini, falling back to BeautifulSoup.
+2025-07-08 19:50:21,066 - src.scraper.base_scraper - ERROR - Failed to fetch https://www.ajio.com/search?q=shoes, status code: 403
+2025-07-08 19:50:21,067 - src.scraper.sites.generic_ai_scraper - ERROR - Failed to fetch search results from ajio.com
+2025-07-08 19:52:05,361 - src.scraper.scraper_manager - INFO - Loaded scraper: generic_ai
+2025-07-08 19:52:05,362 - src.scraper.scraper_manager - INFO - Loaded scraper: flipkart
+2025-07-08 19:52:05,363 - src.scraper.scraper_manager - INFO - Loaded scraper: amazon
+2025-07-08 19:52:05,364 - src.scraper.sites.flipkart - INFO - Searching Flipkart: https://www.flipkart.com/search?q=shoes
+2025-07-08 19:52:06,471 - src.scraper.sites.amazon - INFO - [Fallback] Searching Amazon in: https://www.amazon.in/s?k=shoes
+2025-07-08 19:52:15,545 - src.scraper.sites.flipkart - ERROR - Failed to parse Gemini JSON: Expecting value: line 1 column 1 (char 0)
+Raw: Okay, I will try to extract the product information from the provided HTML content. However, due to the truncated HTML, I am unable to extract the information. I need a more complete HTML content to be able to provide a response.
+
+2025-07-08 19:52:24,368 - src.scraper.scraper_manager - INFO - Loaded scraper: generic_ai
+2025-07-08 19:52:24,368 - src.scraper.scraper_manager - INFO - Loaded scraper: flipkart
+2025-07-08 19:52:24,369 - src.scraper.scraper_manager - INFO - Loaded scraper: amazon
+2025-07-08 19:52:28,338 - src.scraper.sites.amazon - INFO - [Fallback] Searching Amazon us: https://www.amazon.com/s?k=shoes
+2025-07-08 19:52:34,590 - src.utils.ai_helper - ERROR - Gemini API error: Server error '503 Service Unavailable' for url 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=AIzaSyDTNryJ4Nwb2MVBaObKa4IqQYXK2J7R5BQ'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/503
+2025-07-08 19:52:34,591 - src.scraper.sites.amazon - ERROR - Failed to parse Gemini JSON: Expecting value: line 1 column 1 (char 0)
+Raw: 
+2025-07-08 20:32:25,987 - src.scraper.scraper_manager - INFO - Loaded scraper: generic_ai
+2025-07-08 20:32:25,991 - src.scraper.scraper_manager - INFO - Loaded scraper: flipkart
+2025-07-08 20:32:25,992 - src.scraper.scraper_manager - INFO - Loaded scraper: amazon
+2025-07-08 20:32:25,994 - src.scraper.sites.flipkart - INFO - Searching Flipkart: https://www.flipkart.com/search?q=watches
+2025-07-08 20:32:46,581 - src.scraper.sites.amazon - ERROR - ScraperAPI structured endpoint failed: HTTPSConnectionPool(host='api.scraperapi.com', port=443): Read timed out. (read timeout=20)
+2025-07-08 20:32:46,582 - src.scraper.sites.amazon - INFO - [Fallback] Searching Amazon in: https://www.amazon.in/s?k=watches
+2025-07-08 20:32:56,687 - src.scraper.base_scraper - ERROR - ScraperAPI fetch failed for https://www.flipkart.com/search?q=watches: 
+2025-07-08 20:33:07,513 - src.scraper.sites.flipkart - ERROR - Failed to parse Gemini JSON: Expecting value: line 1 column 1 (char 0)
+Raw: I am sorry, but due to the limited HTML content provided, I am unable to extract the product information you requested. The provided HTML appears to be primarily composed of script and link elements, and lacks the specific HTML structures (e.g., div, span, class names) that would allow me to identify and extract product names, prices, images, and other relevant details.
+
+2025-07-08 20:33:16,686 - src.scraper.base_scraper - ERROR - ScraperAPI fetch failed for https://www.amazon.in/s?k=watches: 
+2025-07-08 21:04:21,784 - src.scraper.scraper_manager - INFO - Loaded scraper: generic_ai
+2025-07-08 21:04:21,785 - src.scraper.scraper_manager - INFO - Loaded scraper: flipkart
+2025-07-08 21:04:21,822 - src.scraper.scraper_manager - INFO - Loaded scraper: amazon
+2025-07-08 21:04:21,823 - src.scraper.sites.flipkart - INFO - Searching Flipkart: https://www.flipkart.com/search?q=shoes
+2025-07-08 21:04:23,321 - src.scraper.sites.amazon - INFO - [Fallback] Searching Amazon in: https://www.amazon.in/s?k=shoes
+2025-07-08 21:04:52,706 - src.scraper.base_scraper - ERROR - ScraperAPI fetch failed for https://www.flipkart.com/search?q=shoes: 
+2025-07-08 21:10:10,286 - src.api.routes - INFO - Searching for television in in using Google Custom Search API
+2025-07-08 21:10:10,288 - src.utils.google_custom_search - ERROR - Google Custom Search API key or CSE ID not set
+2025-07-08 21:10:10,288 - src.api.routes - ERROR - Error searching products with Google API: Google Custom Search API key and CSE ID must be set.
+2025-07-08 21:12:02,995 - src.api.routes - INFO - Searching for television in in using Google Custom Search API
+2025-07-08 21:12:02,999 - src.utils.google_custom_search - ERROR - Google Custom Search API key or CSE ID not set
+2025-07-08 21:12:02,999 - src.api.routes - ERROR - Error searching products with Google API: Google Custom Search API key and CSE ID must be set.
+2025-07-08 21:15:12,163 - src.api.routes - INFO - Searching for television in in using Google Custom Search API
+2025-07-08 21:15:12,168 - src.utils.google_custom_search - ERROR - Google Custom Search API key or CSE ID not set
+2025-07-08 21:15:12,168 - src.api.routes - ERROR - Error searching products with Google API: Google Custom Search API key and CSE ID must be set.
+2025-07-08 21:16:30,841 - src.api.routes - INFO - Searching for iphone 15 in US using Google Custom Search API
+2025-07-08 21:16:30,842 - src.utils.google_custom_search - INFO - Querying Google Custom Search API for 'iphone 15' in US
+2025-07-08 21:16:31,779 - src.utils.google_custom_search - INFO - Google Custom Search returned 10 results
+2025-07-08 21:16:31,781 - src.utils.google_custom_search - INFO - Returning 10 products from Google Custom Search
+2025-07-08 21:16:31,781 - src.api.routes - INFO - Found 10 results for iphone 15
+2025-07-08 21:17:41,218 - src.api.routes - INFO - Searching for smartwatch in in using Google Custom Search API
+2025-07-08 21:17:41,221 - src.utils.google_custom_search - INFO - Querying Google Custom Search API for 'smartwatch' in in
+2025-07-08 21:17:41,925 - src.utils.google_custom_search - INFO - Google Custom Search returned 10 results
+2025-07-08 21:17:41,927 - src.utils.google_custom_search - INFO - Few structured price results found, using Gemini to extract more
+2025-07-08 21:17:46,527 - src.utils.google_custom_search - INFO - Extracted 5 products with Gemini
+2025-07-08 21:17:46,528 - src.utils.google_custom_search - INFO - Returning 10 products from Google Custom Search
+2025-07-08 21:17:46,529 - src.api.routes - INFO - Found 10 results for smartwatch
+2025-07-08 21:50:57,335 - src.api.routes - INFO - Searching for smartwatch in IN using Google Custom Search API
+2025-07-08 21:50:57,338 - src.utils.google_custom_search - INFO - Querying Google Custom Search API for 'smartwatch' in IN
+2025-07-08 21:50:58,659 - src.utils.google_custom_search - INFO - Google Custom Search returned 10 results
+2025-07-08 21:50:58,667 - src.utils.google_custom_search - INFO - Returning 10 products from Google Custom Search
+2025-07-08 21:50:58,668 - src.api.routes - INFO - Found 10 results for smartwatch
+2025-07-08 21:53:00,315 - src.api.routes - INFO - Searching for smartwatch in IN using Google Custom Search API
+2025-07-08 21:53:00,318 - src.utils.google_custom_search - INFO - Querying Google Custom Search API for 'smartwatch' in IN
+2025-07-08 21:53:01,120 - src.utils.google_custom_search - INFO - Google Custom Search returned 10 results
+2025-07-08 21:53:01,126 - src.utils.google_custom_search - INFO - Returning 10 products from Google Custom Search
+2025-07-08 21:53:01,127 - src.api.routes - INFO - Found 10 results for smartwatch
+2025-07-08 21:53:23,518 - src.api.routes - INFO - Searching for smartwatch in IN using Google Custom Search API
+2025-07-08 21:53:23,518 - src.utils.google_custom_search - INFO - Querying Google Custom Search API for 'smartwatch' in IN
+2025-07-08 21:53:24,641 - src.utils.google_custom_search - INFO - Google Custom Search returned 10 results
+2025-07-08 21:53:24,645 - src.utils.google_custom_search - INFO - Returning 10 products from Google Custom Search
+2025-07-08 21:53:24,645 - src.api.routes - INFO - Found 10 results for smartwatch
+2025-07-08 21:54:50,219 - src.api.routes - INFO - Searching for smartwatch in IN using Google Custom Search API
+2025-07-08 21:54:50,220 - src.utils.google_custom_search - INFO - Querying Google Custom Search API for 'smartwatch' in IN
+2025-07-08 21:54:51,369 - src.utils.google_custom_search - INFO - Google Custom Search returned 10 results
+2025-07-08 21:54:51,375 - src.utils.google_custom_search - INFO - Returning 10 products from Google Custom Search
+2025-07-08 21:54:51,376 - src.api.routes - INFO - Found 10 results for smartwatch
+2025-07-08 21:55:06,842 - src.api.routes - INFO - Searching for smartwatch in IN using Google Custom Search API
+2025-07-08 21:55:06,843 - src.utils.google_custom_search - INFO - Querying Google Custom Search API for 'smartwatch' in IN
+2025-07-08 21:55:07,896 - src.utils.google_custom_search - INFO - Google Custom Search returned 10 results
+2025-07-08 21:55:07,898 - src.utils.google_custom_search - INFO - Returning 10 products from Google Custom Search
+2025-07-08 21:55:07,898 - src.api.routes - INFO - Found 10 results for smartwatch
+2025-07-08 21:59:43,961 - src.api.routes - INFO - Searching for smartwatch in IN using Google Custom Search API
+2025-07-08 21:59:43,965 - src.utils.google_custom_search - INFO - Querying Google Custom Search API for 'smartwatch' in IN
+2025-07-08 21:59:44,728 - src.utils.google_custom_search - INFO - Google Custom Search returned 10 results
+2025-07-08 21:59:44,736 - src.utils.google_custom_search - INFO - Few structured price results found (2 of 10), using Gemini to extract more
+2025-07-08 21:59:48,569 - src.utils.google_custom_search - INFO - Extracted 5 products with Gemini
+2025-07-08 21:59:48,569 - src.utils.google_custom_search - INFO - Getting estimated prices for 8 items without prices
+2025-07-08 21:59:51,793 - src.utils.google_custom_search - INFO - Returning 10 products from Google Custom Search
+2025-07-08 21:59:51,794 - src.api.routes - INFO - Found 10 results for smartwatch
+2025-07-08 22:03:22,796 - src.api.routes - INFO - Searching for smartwatch in IN using Google Custom Search API
+2025-07-08 22:03:22,797 - src.utils.google_custom_search - INFO - Querying Google Custom Search API for 'smartwatch' in IN
+2025-07-08 22:03:23,456 - src.utils.google_custom_search - INFO - Google Custom Search returned 10 results
+2025-07-08 22:03:23,465 - src.utils.google_custom_search - INFO - Few structured price results found (2 of 10), using Gemini to extract more
+2025-07-08 22:03:26,782 - src.utils.google_custom_search - INFO - Extracted 5 products with Gemini
+2025-07-08 22:03:26,783 - src.utils.google_custom_search - INFO - Getting estimated prices for 8 items without prices
+2025-07-08 22:03:28,622 - src.utils.google_custom_search - INFO - Returning 10 products from Google Custom Search
+2025-07-08 22:03:28,622 - src.api.routes - INFO - Found 10 results for smartwatch
+2025-07-08 22:09:03,778 - src.api.routes - INFO - Searching for smartwatch in IN using Google Custom Search API
+2025-07-08 22:09:03,779 - src.utils.google_custom_search - INFO - Querying Google Custom Search API for 'smartwatch' in IN
+2025-07-08 22:09:04,670 - src.utils.google_custom_search - INFO - Google Custom Search returned 10 results
+2025-07-08 22:09:04,674 - src.utils.google_custom_search - INFO - Few structured price results found (2 of 10), using Gemini to extract more
+2025-07-08 22:09:08,953 - src.utils.google_custom_search - INFO - Extracted 5 products with Gemini
+2025-07-08 22:09:08,954 - src.utils.google_custom_search - INFO - Returning 10 products from Google Custom Search
+2025-07-08 22:09:08,954 - src.api.routes - INFO - Found 10 results for smartwatch
+2025-07-08 22:10:12,992 - src.api.routes - INFO - Searching for smartwatch in IN using Google Custom Search API
+2025-07-08 22:10:12,994 - src.utils.google_custom_search - INFO - Querying Google Custom Search API for 'smartwatch' in IN
+2025-07-08 22:10:13,370 - src.utils.google_custom_search - INFO - Google Custom Search returned 10 results
+2025-07-08 22:10:13,385 - src.utils.google_custom_search - INFO - Few structured price results found (2 of 10), using Gemini to extract more
+2025-07-08 22:10:18,040 - src.utils.google_custom_search - INFO - Extracted 5 products with Gemini
+2025-07-08 22:10:18,041 - src.utils.google_custom_search - INFO - Returning 10 products from Google Custom Search
+2025-07-08 22:10:18,042 - src.api.routes - INFO - Found 10 results for smartwatch
+2025-07-08 22:16:53,806 - src.api.routes - INFO - Searching for smartwatch in IN using Google Custom Search API
+2025-07-08 22:16:53,811 - src.utils.google_custom_search - INFO - Querying Google Custom Search API for 'smartwatch' in IN
+2025-07-08 22:16:54,508 - src.utils.google_custom_search - INFO - Google Custom Search returned 10 results
+2025-07-08 22:16:54,512 - src.utils.google_custom_search - INFO - Few structured price results found (2 of 10), using Gemini to extract more
+2025-07-08 22:16:59,154 - src.utils.google_custom_search - INFO - Extracted 5 products with Gemini
+2025-07-08 22:16:59,154 - src.utils.google_custom_search - INFO - Returning 10 products from Google Custom Search
+2025-07-08 22:16:59,155 - src.api.routes - INFO - Found 10 results for smartwatch

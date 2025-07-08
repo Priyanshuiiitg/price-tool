@@ -1,0 +1,15 @@
+[project]
+name = "hustle"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "Priyanshu", email = "sixthsixth21@gmail.com"},
+]
+dependencies = ["fastapi>=0.116.0", "uvicorn>=0.35.0", "beautifulsoup4>=4.13.4", "httpx>=0.28.1", "aiohttp>=3.12.13", "selenium>=4.34.1", "webdriver-manager>=4.0.2", "python-dotenv>=1.1.1", "langchain>=0.3.26", "langchain-openai>=0.3.27", "aiohttp>=3.9.0"]
+requires-python = "==3.10.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+distribution = false
