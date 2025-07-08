@@ -1,5 +1,25 @@
 # Product Price Comparison Tool
 
+---
+
+## Live Deployment
+
+The service is deployed and accessible at:
+[https://priyanshu-work.duckdns.org/docs#/products/search_products_search_post](https://priyanshu-work.duckdns.org/docs#/products/search_products_search_post)
+
+You can use the interactive Swagger UI to test the API directly from your browser.
+
+---
+
+## Screenshots
+
+Below are screenshots of the deployed API and its usage:
+
+![Screenshot 1](screenshot1.png)
+![Screenshot 2](screenshot2.png)
+
+<!-- Replace the above image paths with the actual filenames after uploading -->
+
 A robust, end-to-end solution for fetching product prices across multiple e-commerce platforms worldwide. This tool uses a combination of techniques to provide accurate, comprehensive price comparisons for any product in any country.
 
 ## Features
